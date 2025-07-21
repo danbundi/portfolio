@@ -1,0 +1,100 @@
+/* 
+
+big-font-size: 3.5rem,
+-h1-font-size: 2.25rem,
+-h2: 1.5rem,
+h3: 1.25rem,
+normal-font: 1rem,
+small-font: 0.875rem,
+smaller: 0.813rem,
+tiny: 0.625rem
+
+font-normal: 400
+medium: 500
+large: 600
+
+*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+body,
+button,
+input,
+textarea {
+    font-size: 1rem;
+}
+
+body {
+    background: white;
+    color: black;
+}
+
+h1, h2, h3 {
+    font-weight: 550;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.section {
+    padding: 6rem 0 2rem;
+}
+
+.section-title {
+    font-size: 2.25rem;
+    color: var(--title-color);
+}
+
+.section-subtitle {
+    display: block;
+    font-size: 0.875rem;
+    margin-bottom: 4rem;
+}
+
+.section-title,
+.section-subtitle {
+    text-align: center;
+}
+
+.container {
+    max-width: 968px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 1rem;
+    font-weight: 500;
+}
+
+.button-icon {
+    margin-left: 0.5rem;
+}
+
+.button--flex {
+    display: inline-flex;
+}
