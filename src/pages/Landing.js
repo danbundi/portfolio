@@ -47,7 +47,7 @@ const Landing = () => {
                 <div className="word">
                   <h2 className='title'>Daniel Bundi 🙂</h2>
 
-                  <h3 useRef={desRef} className='subtitle'>Web Developer</h3>
+                  <h3 useRef={desRef} className='subtitle'>Web Developer </h3>
                   <p className="description">HTML | REACT | GSAP | JS | CSS | 3.JS</p>
                   <p className="description">I build modern, responsive, and visually engaging websites with a passion for crafting immersive, user-focused digital products on the path to full-stack software development."
                   </p>
