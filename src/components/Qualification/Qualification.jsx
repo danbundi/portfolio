@@ -24,7 +24,7 @@ const Qualification = () => {
                 <div className="qualification_content qualification_content-active">
                     {/** data 1 */}
                     <div className="qualification_data">
-                        <div>
+                        <div className='qualification_div'>
                             <h3 className="qualification_title">Web Design</h3>
                             <span className="qualification_subtitle">Spain - Institute</span>
 
@@ -48,7 +48,7 @@ const Qualification = () => {
                             <span className="qualification_line"></span>
                         </div>
 
-                        <div>
+                        <div className='qualification_div'>
                             <h3 className="qualification_title">Art Director</h3>
                             <span className="qualification_subtitle">Spain - Institute</span>
 
@@ -60,7 +60,7 @@ const Qualification = () => {
 
                     {/** data 3 */}
                     <div className="qualification_data">
-                        <div>
+                        <div className='qualification_div'>
                             <h3 className="qualification_title">Web Development</h3>
                             <span className="qualification_subtitle">Spain - Institute</span>
 
@@ -73,6 +73,8 @@ const Qualification = () => {
                             <span className="qualification_rounder"></span>
                             <span className="qualification_line"></span>
                         </div>
+
+                        <div></div>
                     </div>
 
                     {/** data 4 */}
@@ -84,7 +86,7 @@ const Qualification = () => {
                             <span className="qualification_line"></span>
                         </div>
 
-                        <div>
+                        <div className='qualification_div'>
                             <h3 className="qualification_title">UX Expert</h3>
                             <span className="qualification_subtitle">Spain - Institute</span>
 
