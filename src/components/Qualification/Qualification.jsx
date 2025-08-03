@@ -1,7 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Qualification.css'
 
 const Qualification = () => {
+    const [toggleState, setToggleState] = useState(1);
+
+    const toggleTab = (index) => {
+        setToggleState(index);
+    }
+
   return (
     <>
     <section className="qualification section">
@@ -10,18 +16,20 @@ const Qualification = () => {
 
         <div className="qualification_container container">
             <div className="qualification_tabs">
-                <div className="qualification_button qualification_active button--flex">
+                <div className="qualification_button qualification_active button--flex" onClick={() => toggleTab(1)}>
                     <i className="uil uil-graduation-cap qualification_icon"></i> Education
                 </div>
 
-                <div className="qualification_button button--flex">
+                <div className="qualification_button button--flex" onClick={() => toggleTab(2)}>
                     <i className="uil uil-briefcase-alt qualification_icon"></i> Experience
                 </div>
             </div>
 
             <div className="qualification_sections">
                 {/** Content 1 */}
-                <div className="qualification_content qualification_content-active">
+                <div /*className="qualification_content qualification_content-active"*/
+                className={toggleState === 1 ? "qualification_content-active" : "qualification_content"}
+                >
                     {/** data 1 */}
                     <div className="qualification_data">
                         <div className='qualification_div'>
@@ -98,7 +106,7 @@ const Qualification = () => {
                 </div>
 
                 {/** Content 2 */}
-                <div className="qualification_content">
+                <div className={toggleState === 2 ? "qualification_content-active" : "qualification_content"}>
                     {/** data 1 */}
                     <div className="qualification_data">
                         <div>

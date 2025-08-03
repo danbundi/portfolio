@@ -1,0 +1,10 @@
+.testimonial_container {
+    width: 750px;
+    display: flex;
+
+}
+
+.testimonial_container img {
+    width: 200px;
+}
+
