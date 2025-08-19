@@ -5,6 +5,7 @@ import './App.css'
 import Services from './components/Services/Services';
 import Qualification from './components/Qualification/Qualification';
 import Testimonials from './components/Testimonials/Testimonials';
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
     <Services/>
     <Qualification/>
     <Testimonials/>
+    <Contact/>
     </>
   )
 }
