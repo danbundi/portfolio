@@ -1,4 +1,5 @@
 import React from 'react'
+import './Contact.css'
 
 const Contact = () => {
   return (
@@ -60,10 +61,12 @@ const Contact = () => {
               <input type="email" name="email" id="" className='contact_form-input' placeholder='Insert Your Email' />
             </div>
 
-            <div className="contact_form-div">
+            <div className="contact_form-div contact_form-area">
               <label htmlFor="" className="contact_form-tag">Project</label>
               <textarea name="project" cols="30" rows="10" className='contact_form-input' placeholder='Please write your project here'></textarea>
             </div>
+
+            <button className="contact-button"><a href="#" className='button button-flex'>Send message <i class="uil uil-message contact_button-icon"></i></a></button>
           </form>
         </div>
       </div>
